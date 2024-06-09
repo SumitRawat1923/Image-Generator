@@ -8,7 +8,7 @@ Content-Type: application/json
 
 ###
 
-GET  http://localhost:3001/api/v1/auth/sign-in
+POST  http://localhost:3001/api/v1/auth/sign-in
 Content-Type: application/json
 
 {
@@ -20,8 +20,7 @@ Content-Type: application/json
 
 POST  http://localhost:3001/api/v1/images
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY0MWY4ZGE1NWRkZGRkM2RkMDcxMWYiLCJpYXQiOjE3MTc4NTYxMjUsImV4cCI6MTcxNzg1OTcyNX0.kBH3MuvSEgRJe3hyczrBRDh5YnyPy0JXr3h6BwUDnJ8
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY0MWY4ZGE1NWRkZGRkM2RkMDcxMWYiLCJpYXQiOjE3MTc5MjU1NjcsImV4cCI6MTcxNzkyOTE2N30.Q5BQn5JtsqePob6ymb99nq3LOmqh7kH6OOJobL0u9TM
 ###
 GET  http://localhost:3001/api/v1/images
 Content-Type: application/json
